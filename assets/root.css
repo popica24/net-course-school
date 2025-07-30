@@ -1,0 +1,54 @@
+:root {
+	/* Color */
+    --sigma-brand: #070052;
+    --sigma-secondary: #FFB800;
+    --sigma-accent: #FF5D33;
+
+    --sigma-heading: #1B1818;
+    --sigma-paragraph: #1B1818B2;
+	
+	--sigma-border-light: #EAECF0;
+    --sigma-bg-light: #efefef;
+	--sigma-border-D0D5DD :#D0D5DD
+
+	--sigma-gray-600: #475467;
+
+	--sigma-title: #03071E;
+    --sigma-title-50: rgba(3, 7, 30, 0.50);
+	--sigma-title-60: rgba(3, 7, 30, 0.60);
+    --sigma-title-70: rgba(3, 7, 30, 0.7);
+	--sigma-title-80: rgba(3, 7, 30, 0.80);
+	--sigma-title-90 : rgba(3, 7, 30, 0.9);
+
+	/* Shades */
+	--sigma-black-100: #1B1818; /* Heading */
+	--sigma-black-90: #1B1818E5;
+	--sigma-black-80: #1B1818CC;
+	--sigma-black-70: #1B1818B2; /* Paragraph */
+	--sigma-black-60: #1B181899;
+	--sigma-black-50: #1B181880;
+	--sigma-black-40: #1B181866;
+	--sigma-white: #fff;
+	--sigma-ff9: #FFFEF9;
+	--sigma-border-1: #ffffff1a;
+    --sigma-border-2: rgba(27, 24, 24, 0.05);
+    --sigma-border-3: #EDEDED;
+
+	--sigma-section-bg: #F9F8FF;
+	--sigma-section-bg-2: #0E0062;
+
+	--sigma-success-700: #00A86B;
+
+	/* Fonts */
+	--font-heading: 'Plus Jakarta Sans', sans-serif;
+	--font-inter: 'Inter', sans-serif;
+}
+
+::selection {
+    color: var(--sigma-white);
+    background: var(--sigma-accent);
+}
+
+:focus-visible {
+    outline: none;
+}
